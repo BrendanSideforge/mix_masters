@@ -1,0 +1,36 @@
+
+token: "ODY3ODQyMTc0ODUzODQwOTM2.YPm_Ag.h_kpCuHJGKo0gA9DW8iOmnE5E1M"
+prefix: "."
+
+ticket_create_channel_id: 867836957874978866
+about_channel_id: 867684862608408617
+bot_server_id: 866615096242077696
+invite_logs_channel_id: 871792477982556201
+transactions_logs_channel_id: 871824062370951198
+referral_logs_channel_id: 871839139958521916
+queue_log_channel_id: 868572781904789535
+customers_role_id: 868578164203454584
+review_channel_id: 867709420547604520
+
+order_addons: [
+  {
+    name: "$100 Tier Priority",
+    price: 100,
+    value: 100000000,
+    reaction: "📈"
+  },
+  {
+    name: "$75 for 4k GoPro Mixing Session",
+    price: 75,
+    value: 75,
+    reaction: "📸"
+  }
+]
+
+postgres:
+  host: "localhost"
+  port: 5432
+  database: "mix_masters"
+  user: "postgres"
+  password: "BS103261"
+
